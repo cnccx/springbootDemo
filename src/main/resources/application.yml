@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /cnccx
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+name: 小陈
+age: 18
+content: "name:${name},age:${age}"
+student:
+  name: 小张
+  age: 20
